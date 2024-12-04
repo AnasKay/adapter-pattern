@@ -1,6 +1,6 @@
 package GameController;
 
-import Interfaces.GameController;
+import GameController.Interfaces.GameController;
 
 public class GameControllerAdapter implements GameController {
     private ThirdPartyController thirdPartyController;

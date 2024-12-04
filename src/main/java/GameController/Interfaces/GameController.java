@@ -1,4 +1,4 @@
-package Interfaces;
+package GameController.Interfaces;
 
 public interface GameController {
     void moveUp();
