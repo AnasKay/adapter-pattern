@@ -1,6 +1,6 @@
 package GameController;
 
-public class ThirdPartyController2 {
+public class OtherPartyController {
     public void rauf() { System.out.println("auffi"); }
     public void runter() { System.out.println("nunta"); }
     public void links() { System.out.println("links"); }
