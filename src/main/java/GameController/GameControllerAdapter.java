@@ -13,42 +13,31 @@ public class GameControllerAdapter implements GameController {
 
     @Override
     public void moveUp() {
-        if(thirdPartyController != null)
-            this.thirdPartyController.ascend();
-        if(otherPartyController != null)
-            this.otherPartyController.rauf();
+        this.thirdPartyController.ascend();
+        this.otherPartyController.rauf();
     }
 
     @Override
     public void moveDown() {
-        if(thirdPartyController != null)
-            this.thirdPartyController.descend();
-        if(otherPartyController != null)
-            this.otherPartyController.runter();
+     this.thirdPartyController.descend();
+     this.otherPartyController.runter();
     }
 
     @Override
     public void moveLeft() {
-        if(thirdPartyController != null)
-            this.thirdPartyController.goLeft();
-        if(otherPartyController != null)
-            this.otherPartyController.links();
+        this.thirdPartyController.goLeft();
+        this.otherPartyController.links();
     }
 
     @Override
     public void moveRight() {
-        if(thirdPartyController != null)
-            this.thirdPartyController.goRight();
-        if(otherPartyController != null)
-            this.otherPartyController.rechts();
+        this.thirdPartyController.goRight();
+        this.otherPartyController.rechts();
     }
 
     @Override
     public void actionButton() {
-        if(thirdPartyController != null)
-            this.thirdPartyController.performAction();
-        if(otherPartyController != null)
-            this.otherPartyController.duawos();
+        this.thirdPartyController.performAction();
+        this.otherPartyController.duawos();
     }
-
 }
